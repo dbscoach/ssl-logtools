@@ -1,3 +1,8 @@
+Docker image
+============
+
+Docker images of all RoboCup Small Size League, including this one, can be found at https://hub.docker.com/u/robocupssl
+
 ssl-logtools
 ============
 
