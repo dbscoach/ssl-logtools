@@ -27,10 +27,12 @@ In order to build the ssl-logtools you will need:
   * zlib1g-dev
   * protobuf-compiler
   * ninja-build
+  * libopengl-dev
+  * libglu1-mesa-dev
 
 On a Debian-based system, you can install the dependencies with the following command:
 ```bash
-sudo apt-get install -y cmake g++ qt6-base-dev libboost-program-options-dev zlib1g-dev protobuf-compiler ninja-build
+sudo apt-get install -y cmake g++ qt6-base-dev libboost-program-options-dev zlib1g-dev protobuf-compiler ninja-build libopengl-dev libglu1-mesa-dev
 ```
 
 The recommended way of building a project with CMake is by doing an
